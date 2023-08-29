@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/uncover
+module github.com/sanzhar-theori/uncover
 
 go 1.19
 
