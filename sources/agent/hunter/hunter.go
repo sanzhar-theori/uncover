@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/projectdiscovery/uncover/sources"
+	"github.com/sanzhar-theori/uncover/sources"
 )
 
 const (

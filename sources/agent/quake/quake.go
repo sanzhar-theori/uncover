@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/projectdiscovery/uncover/sources"
+	"github.com/sanzhar-theori/uncover/sources"
 	errorutil "github.com/projectdiscovery/utils/errors"
 )
 

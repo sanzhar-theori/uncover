@@ -7,7 +7,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 
-	"github.com/projectdiscovery/uncover/testutils"
+	"github.com/sanzhar-theori/uncover/testutils"
 )
 
 var (

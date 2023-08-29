@@ -8,7 +8,7 @@ import (
 
 	"errors"
 
-	"github.com/projectdiscovery/uncover/sources"
+	"github.com/sanzhar-theori/uncover/sources"
 )
 
 const (

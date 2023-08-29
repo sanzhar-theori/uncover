@@ -9,7 +9,7 @@ import (
 	"errors"
 
 	"github.com/projectdiscovery/mapcidr"
-	"github.com/projectdiscovery/uncover/sources"
+	"github.com/sanzhar-theori/uncover/sources"
 	iputil "github.com/projectdiscovery/utils/ip"
 )
 
