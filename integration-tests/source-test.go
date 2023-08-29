@@ -7,11 +7,10 @@ import (
 	"path/filepath"
 
 	"github.com/projectdiscovery/uncover/testutils"
-	folderutil "github.com/projectdiscovery/utils/folder"
 )
 
 var (
-	ConfigFile = filepath.Join(folderutil.HomeDirOrDefault("."), ".config/uncover/provider-config.yaml")
+	ConfigFile = filepath.Join("/tmp/nuclei", ".config/uncover/provider-config.yaml")
 )
 
 type censysTestcases struct{}

@@ -13,13 +13,12 @@ import (
 	"github.com/projectdiscovery/uncover/sources"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	fileutil "github.com/projectdiscovery/utils/file"
-	folderutil "github.com/projectdiscovery/utils/folder"
 	genericutil "github.com/projectdiscovery/utils/generic"
 	updateutils "github.com/projectdiscovery/utils/update"
 )
 
 var (
-	defaultConfigLocation = filepath.Join(folderutil.HomeDirOrDefault("."), ".config/uncover/config.yaml")
+	defaultConfigLocation = filepath.Join("/tmp/nuclei", ".config/uncover/config.yaml")
 )
 
 // Options contains the configuration options for tuning the enumeration process.

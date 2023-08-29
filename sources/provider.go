@@ -10,13 +10,12 @@ import (
 	"github.com/projectdiscovery/gologger"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	fileutil "github.com/projectdiscovery/utils/file"
-	folderutil "github.com/projectdiscovery/utils/folder"
 	"github.com/projectdiscovery/utils/generic"
 )
 
 var (
 	// Todo: replace from utils with ConfigDirOrDefault
-	UncoverConfigDir = filepath.Join(folderutil.HomeDirOrDefault("."), ".config/uncover")
+	UncoverConfigDir = filepath.Join("/tmp/nuclei", ".config/uncover")
 	// DefaultProviderConfigLocation where keys and config of providers are stored
 	DefaultProviderConfigLocation = filepath.Join(UncoverConfigDir, "provider-config.yaml")
 )
